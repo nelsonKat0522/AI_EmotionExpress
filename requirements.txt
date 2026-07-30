@@ -1,0 +1,46 @@
+# Data Science
+numpy
+pandas
+matplotlib
+scikit-learn
+
+# Deep Learning
+tensorflow
+torch
+torchvision
+torchaudio
+
+# Hugging Face
+transformers
+datasets
+accelerate
+sentence-transformers
+
+# RAG
+langchain
+langchain-community
+langchain-openai
+chromadb
+faiss-cpu
+pypdf
+
+# OpenAI
+openai
+python-dotenv
+
+# Notebook
+jupyter
+ipykernel
+
+# Visualization
+tqdm
+
+# Web App
+streamlit
+
+# Image Generation
+diffusers
+safetensors
+
+# Utilities
+requests
