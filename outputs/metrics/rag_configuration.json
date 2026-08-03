@@ -1,0 +1,21 @@
+{
+    "embedding_model": "text-embedding-3-small",
+    "chunk_size": 1000,
+    "chunk_overlap": 150,
+    "stored_chunk_count": 4829,
+    "supported_topics": [
+        "career_and_work",
+        "education",
+        "relationships",
+        "family",
+        "stress_and_anxiety",
+        "grief_and_loss",
+        "loneliness",
+        "self_confidence",
+        "financial_concerns",
+        "health_and_wellness",
+        "personal_growth",
+        "daily_life",
+        "general_support"
+    ]
+}
