@@ -1,0 +1,27 @@
+{
+    "empathetic_response": "I'm really sorry to hear about your job search struggles. It's completely normal to feel disappointed and question your abilities after facing rejections. Remember, this doesn't define your worth or potential.",
+    "recommendations": [
+        {
+            "recommendation": "Consider seeking feedback on your applications to identify areas for improvement.",
+            "source_title": null,
+            "page": null
+        },
+        {
+            "recommendation": "Try to connect with a mentor or join a support group for job seekers.",
+            "source_title": null,
+            "page": null
+        },
+        {
+            "recommendation": "Focus on your strengths and accomplishments to boost your self-confidence.",
+            "source_title": null,
+            "page": null
+        }
+    ],
+    "caption": "Every rejection brings you closer to the right opportunity.",
+    "image_prompt": "A sunrise over a mountain, symbolizing hope and new beginnings.",
+    "retrieval_status": "not_grounded",
+    "sources": [],
+    "retrieval_strategy": "all_topics",
+    "retrieval_query": "User situation:I have applied to many jobs, but I keep getting rejected.\nI am beginning to question whether I am capable enough.\n            Detected emotions:disappointment, sadness\n            Primary topic:career_and_work\n            Secondary topic:self_confidence\n            Information needed:\n                Safe, practical, non-diagnostic guidance, coping strategies,\n                constructive next steps, and supportive resources relevant\n                to this specific situation.",
+    "retrieved_sources": []
+}
