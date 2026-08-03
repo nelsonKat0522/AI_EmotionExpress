@@ -1,0 +1,13 @@
+story,expected_topic,predicted_topic,secondary_topic,confidence,correct,inference_time_seconds
+"I have a job interview tomorrow, and I am afraid I will fail.",career_and_work,career_and_work,stress_and_anxiety,0.9,True,1.0614074002951384
+"My final exam is next week, but I cannot focus when I try to study.",education,education,stress_and_anxiety,0.9,True,0.9656364005059004
+"My boyfriend stopped responding to my messages, and I do not know what happened.",relationships,relationships,,0.9,True,1.103315799497068
+My parents keep comparing me with my sister.,family,family,,0.9,True,0.9483580999076366
+"Nothing specific is wrong, but I feel worried and tense all day.",stress_and_anxiety,stress_and_anxiety,,0.9,True,3.4559562001377344
+"My close friend passed away, and I miss her every day.",grief_and_loss,grief_and_loss,,1.0,True,4.265745299868286
+I moved to a new city and have nobody to spend time with.,loneliness,loneliness,,0.9,True,2.3533375998958945
+I always compare myself with others and feel like I am not talented enough.,self_confidence,self_confidence,,0.9,True,0.9195534000173211
+"My credit-card balance keeps increasing, and I cannot afford all my bills.",financial_concerns,financial_concerns,,0.9,True,3.421523000113666
+I have not been sleeping well and feel exhausted every morning.,health_and_wellness,health_and_wellness,,0.9,True,0.9465964995324612
+I want to become more disciplined and stop giving up on my goals.,personal_growth,personal_growth,,0.9,True,0.9096045000478625
+"The grocery store was crowded today, and the long line annoyed me.",daily_life,daily_life,,0.9,True,1.0793882999569178

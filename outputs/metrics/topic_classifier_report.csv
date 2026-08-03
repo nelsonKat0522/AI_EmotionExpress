@@ -1,0 +1,16 @@
+,precision,recall,f1-score,support
+career_and_work,1.0,1.0,1.0,1.0
+daily_life,1.0,1.0,1.0,1.0
+education,1.0,1.0,1.0,1.0
+family,1.0,1.0,1.0,1.0
+financial_concerns,1.0,1.0,1.0,1.0
+grief_and_loss,1.0,1.0,1.0,1.0
+health_and_wellness,1.0,1.0,1.0,1.0
+loneliness,1.0,1.0,1.0,1.0
+personal_growth,1.0,1.0,1.0,1.0
+relationships,1.0,1.0,1.0,1.0
+self_confidence,1.0,1.0,1.0,1.0
+stress_and_anxiety,1.0,1.0,1.0,1.0
+accuracy,1.0,1.0,1.0,1.0
+macro avg,1.0,1.0,1.0,12.0
+weighted avg,1.0,1.0,1.0,12.0
