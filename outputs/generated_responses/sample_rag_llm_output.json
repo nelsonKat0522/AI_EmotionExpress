@@ -1,27 +1,81 @@
 {
-    "empathetic_response": "I'm really sorry to hear about your job search struggles. It's completely normal to feel disappointed and question your abilities after facing rejections. Remember, this doesn't define your worth or potential.",
+    "empathetic_response": "It's completely normal to feel disappointed after facing multiple job rejections. Remember, each rejection is a step toward finding the right opportunity, and it doesn't define your capabilities. You're not alone in this journey, and it's okay to seek support and reflect on your experiences.",
     "recommendations": [
         {
-            "recommendation": "Consider seeking feedback on your applications to identify areas for improvement.",
-            "source_title": null,
-            "page": null
+            "recommendation": "Ask for feedback from interviewers to identify areas for improvement.",
+            "source_title": "Tips Job Search",
+            "page": 3
         },
         {
-            "recommendation": "Try to connect with a mentor or join a support group for job seekers.",
-            "source_title": null,
-            "page": null
+            "recommendation": "Celebrate small victories in your job search to maintain a positive mindset.",
+            "source_title": "Tips Job Search",
+            "page": 4
         },
         {
-            "recommendation": "Focus on your strengths and accomplishments to boost your self-confidence.",
-            "source_title": null,
-            "page": null
+            "recommendation": "Reach out to friends or mentors for emotional support and encouragement.",
+            "source_title": "Stress Resilience",
+            "page": 3
         }
     ],
     "caption": "Every rejection brings you closer to the right opportunity.",
-    "image_prompt": "A sunrise over a mountain, symbolizing hope and new beginnings.",
-    "retrieval_status": "not_grounded",
-    "sources": [],
-    "retrieval_strategy": "all_topics",
+    "image_prompt": "A sunrise over a mountain, symbolizing new beginnings and hope.",
+    "retrieval_status": "grounded",
+    "sources": [
+        {
+            "title": "Tips Job Search",
+            "page": 3
+        },
+        {
+            "title": "Tips Job Search",
+            "page": 4
+        },
+        {
+            "title": "Stress Resilience",
+            "page": 3
+        }
+    ],
+    "retrieval_strategy": "primary_topic",
     "retrieval_query": "User situation:I have applied to many jobs, but I keep getting rejected.\nI am beginning to question whether I am capable enough.\n            Detected emotions:disappointment, sadness\n            Primary topic:career_and_work\n            Secondary topic:self_confidence\n            Information needed:\n                Safe, practical, non-diagnostic guidance, coping strategies,\n                constructive next steps, and supportive resources relevant\n                to this specific situation.",
-    "retrieved_sources": []
+    "retrieved_sources": [
+        {
+            "rank": 1,
+            "title": "Tips Job Search",
+            "page": 3,
+            "topic": "career_and_work",
+            "source_file": "tips_job_search.pdf",
+            "relevance_score": 0.3857337066573707
+        },
+        {
+            "rank": 2,
+            "title": "Stress Resilience",
+            "page": 3,
+            "topic": "career_and_work",
+            "source_file": "stress_resilience.pdf",
+            "relevance_score": 0.27813802861827364
+        },
+        {
+            "rank": 3,
+            "title": "Tips Job Search",
+            "page": 3,
+            "topic": "career_and_work",
+            "source_file": "tips_job_search.pdf",
+            "relevance_score": 0.26811963843353714
+        },
+        {
+            "rank": 4,
+            "title": "Stress Finding Job",
+            "page": 5,
+            "topic": "career_and_work",
+            "source_file": "stress_finding_job.pdf",
+            "relevance_score": 0.26104807160298527
+        },
+        {
+            "rank": 5,
+            "title": "Tips Job Search",
+            "page": 4,
+            "topic": "career_and_work",
+            "source_file": "tips_job_search.pdf",
+            "relevance_score": 0.2537804376331607
+        }
+    ]
 }

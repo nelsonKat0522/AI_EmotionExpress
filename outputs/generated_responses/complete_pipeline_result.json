@@ -1,0 +1,56 @@
+{
+    "user_story": "I have applied to many jobs and attended several interviews,\nbut I keep getting rejected. I am beginning to lose confidence\nand wonder whether I am capable of succeeding.",
+    "emotion_predictions": [
+        {
+            "emotion": "disappointment",
+            "score": 0.7884987592697144
+        }
+    ],
+    "topic_result": {
+        "primary_topic": "career_and_work",
+        "secondary_topic": "self_confidence",
+        "confidence": 0.9,
+        "explanation": "The story primarily revolves around job applications and interviews, which falls under career and work. Additionally, the mention of losing confidence relates to self-esteem and self-doubt."
+    },
+    "retrieval": {
+        "query": "User situation:\nI have applied to many jobs and attended several interviews,\nbut I keep getting rejected. I am beginning to lose confidence\nand wonder whether I am capable of succeeding.\n\nDetected emotions:\ndisappointment\n\nPrimary topic:\ncareer_and_work\n\nSecondary topic:\nself_confidence\n\nRetrieve safe, practical, non-diagnostic guidance,\ncoping strategies, and constructive next steps\nrelevant to this situation.",
+        "strategy": "all_topics",
+        "sources": []
+    },
+    "generated_response": {
+        "empathetic_response": "It's understandable to feel disappointed after facing repeated rejections. You're not alone in this.",
+        "recommendations": [
+            {
+                "recommendation": "Consider seeking feedback from your interviews to identify areas for improvement.",
+                "source_title": null,
+                "page": null
+            },
+            {
+                "recommendation": "Try to connect with a mentor or join a job search group for support and encouragement.",
+                "source_title": null,
+                "page": null
+            },
+            {
+                "recommendation": "Focus on your strengths and achievements to rebuild your confidence.",
+                "source_title": null,
+                "page": null
+            }
+        ],
+        "caption": "Every setback is a setup for a comeback. Keep pushing forward!",
+        "image_prompt": "A person climbing a mountain, symbolizing perseverance and hope.",
+        "retrieval_status": "not_grounded"
+    },
+    "generated_image": {
+        "status": "success",
+        "path": "d:\\FullStack_Academic\\Final Capstone\\EmoExpress\\outputs\\generated_images\\every_setback_is_a_setup_for_a_comeback_keep_pushi_20260803_185848.png",
+        "model": "gpt-image-1",
+        "prompt": "A person climbing a mountain, symbolizing perseverance and hope.\n\nCreate a polished and emotionally supportive digital illustration.\n\nRequirements:\n\n- Show symbolic emotional progress and realistic hope.\n- Avoid depicting a specific identifiable person.\n- Use a calm and balanced composition.\n- Do not include text, logos, watermarks, or interface elements.\n- Do not depict self-harm, violence, medication, or graphic distress."
+    },
+    "timing": {
+        "emotion_seconds": 0.09267149958759546,
+        "topic_seconds": 1.8690197002142668,
+        "retrieval_seconds": 1.0372995007783175,
+        "response_seconds": 2.7983776004984975,
+        "total_seconds": 21.263332400470972
+    }
+}
