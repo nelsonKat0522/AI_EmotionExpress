@@ -7,14 +7,14 @@
         }
     ],
     "topic_result": {
-        "primary_topic": "career_and_work",
-        "secondary_topic": "self_confidence",
-        "confidence": 0.9,
-        "explanation": "The story primarily revolves around job applications and interviews, which falls under career and work. Additionally, the mention of losing confidence relates to self-esteem and self-doubt."
+        "topic": "career_and_work",
+        "confidence": 0.7196871042251587,
+        "model": "Fine-Tuned DistilBERT"
     },
     "retrieval": {
-        "query": "User situation:\nI have applied to many jobs and attended several interviews,\nbut I keep getting rejected. I am beginning to lose confidence\nand wonder whether I am capable of succeeding.\n\nDetected emotions:\ndisappointment\n\nPrimary topic:\ncareer_and_work\n\nSecondary topic:\nself_confidence\n\nRetrieve safe, practical, non-diagnostic guidance,\ncoping strategies, and constructive next steps\nrelevant to this situation.",
-        "strategy": "primary_topic",
+        "query": "User situation:\nI have applied to many jobs and attended several interviews,\nbut I keep getting rejected. I am beginning to lose confidence\nand wonder whether I am capable of succeeding.\n\nDetected emotions:\ndisappointment\n\nPredicted topic:\ncareer_and_work\n\nRetrieve safe, practical, non-diagnostic guidance,\ncoping strategies, and constructive next steps\nrelevant to this situation.",
+        "predicted_topic": "career_and_work",
+        "strategy": "predicted_topic",
         "sources": [
             {
                 "rank": 1,
@@ -22,7 +22,7 @@
                 "page": 3,
                 "topic": "career_and_work",
                 "source_file": "tips_job_search.pdf",
-                "relevance_score": 0.37408553998756644
+                "relevance_score": 0.39151659144785345
             },
             {
                 "rank": 2,
@@ -30,7 +30,7 @@
                 "page": 3,
                 "topic": "career_and_work",
                 "source_file": "stress_resilience.pdf",
-                "relevance_score": 0.34600853176821567
+                "relevance_score": 0.35806244614863436
             },
             {
                 "rank": 3,
@@ -38,7 +38,7 @@
                 "page": 4,
                 "topic": "career_and_work",
                 "source_file": "tips_job_search.pdf",
-                "relevance_score": 0.31514228726126237
+                "relevance_score": 0.32892392740268817
             },
             {
                 "rank": 4,
@@ -46,7 +46,7 @@
                 "page": 3,
                 "topic": "career_and_work",
                 "source_file": "tips_job_search.pdf",
-                "relevance_score": 0.30471819151276003
+                "relevance_score": 0.31444656923289305
             },
             {
                 "rank": 5,
@@ -54,20 +54,20 @@
                 "page": 1,
                 "topic": "career_and_work",
                 "source_file": "tips_job_search.pdf",
-                "relevance_score": 0.30022445237768003
+                "relevance_score": 0.31415019259416443
             }
         ]
     },
     "generated_response": {
-        "empathetic_response": "It's tough to face rejection, but you're not alone in this journey.",
+        "empathetic_response": "It's tough facing rejection, but you're not alone in this journey.",
         "recommendations": [
             {
-                "recommendation": "Reflect on each interview to identify areas for improvement.",
+                "recommendation": "Reflect on your interviews to identify areas for improvement.",
                 "source_title": "Tips Job Search",
                 "page": 3
             },
             {
-                "recommendation": "Celebrate small victories, like perfecting your resume or gaining feedback.",
+                "recommendation": "Celebrate small victories, like refining your resume or gaining feedback.",
                 "source_title": "Tips Job Search",
                 "page": 4
             },
@@ -77,21 +77,25 @@
                 "page": 3
             }
         ],
-        "caption": "Every step forward is a step toward success and growth.",
-        "image_prompt": "A person climbing a mountain, symbolizing progress and determination.",
+        "caption": "Every step forward is a step toward your success.",
+        "image_prompt": "A person climbing a mountain, symbolizing progress and hope.",
         "retrieval_status": "grounded"
     },
     "generated_image": {
         "status": "success",
-        "path": "d:\\FullStack_Academic\\Final Capstone\\EmoExpress\\outputs\\generated_images\\every_step_forward_is_a_step_toward_success_and_gr_20260805_113021.png",
+        "path": "d:\\FullStack_Academic\\Final Capstone\\EmoExpress\\outputs\\generated_images\\every_step_forward_is_a_step_toward_your_success_20260805_181557_with_caption.png",
+        "original_path": "d:\\FullStack_Academic\\Final Capstone\\EmoExpress\\outputs\\generated_images\\every_step_forward_is_a_step_toward_your_success_20260805_181557.png",
+        "final_path": "d:\\FullStack_Academic\\Final Capstone\\EmoExpress\\outputs\\generated_images\\every_step_forward_is_a_step_toward_your_success_20260805_181557_with_caption.png",
+        "caption": "Every step forward is a step toward your success.",
+        "caption_embedded": true,
         "model": "gpt-image-1",
-        "prompt": "A person climbing a mountain, symbolizing progress and determination.\n\nCreate a polished and emotionally supportive digital illustration.\n\nRequirements:\n\n- Show symbolic emotional progress and realistic hope.\n- Avoid depicting a specific identifiable person.\n- Use a calm and balanced composition.\n- Do not include text, logos, watermarks, or interface elements.\n- Do not depict self-harm, violence, medication, or graphic distress."
+        "prompt": "A person climbing a mountain, symbolizing progress and hope.\n\nCreate a polished and emotionally supportive digital illustration.\n\nRequirements:\n\n- Show symbolic emotional progress and realistic hope.\n- Avoid depicting a specific identifiable person.\n- Use a calm and balanced composition.\n- Do not include text, logos, watermarks, or interface elements.\n- Do not depict self-harm, violence, medication, or graphic distress."
     },
     "timing": {
-        "emotion_seconds": 0.09357400052249432,
-        "topic_seconds": 1.5847319001331925,
-        "retrieval_seconds": 0.22076919954270124,
-        "response_seconds": 3.2094678999856114,
-        "total_seconds": 23.029188500717282
+        "emotion_seconds": 0.08811559993773699,
+        "topic_seconds": 0.03908170014619827,
+        "retrieval_seconds": 0.17487300001084805,
+        "response_seconds": 2.987162600271404,
+        "total_seconds": 19.610450799576938
     }
 }

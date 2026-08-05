@@ -1,24 +1,24 @@
 {
-    "empathetic_response": "It's completely normal to feel disappointed after facing multiple job rejections. Remember, each rejection is a step toward finding the right opportunity, and it doesn't define your capabilities. You're not alone in this journey, and it's okay to seek support and reflect on your experiences.",
+    "empathetic_response": "It's completely understandable to feel disappointed after facing multiple rejections. Remember, this journey is tough, but it doesn't define your capabilities. Each step you take is a part of your growth.",
     "recommendations": [
         {
-            "recommendation": "Ask for feedback from interviewers to identify areas for improvement.",
+            "recommendation": "Reflect on each rejection to identify areas for improvement and growth.",
             "source_title": "Tips Job Search",
             "page": 3
         },
         {
-            "recommendation": "Celebrate small victories in your job search to maintain a positive mindset.",
+            "recommendation": "Celebrate small victories, like refining your resume or gaining interview experience.",
             "source_title": "Tips Job Search",
             "page": 4
         },
         {
-            "recommendation": "Reach out to friends or mentors for emotional support and encouragement.",
+            "recommendation": "Reach out to friends or mentors for support and encouragement during this process.",
             "source_title": "Stress Resilience",
             "page": 3
         }
     ],
-    "caption": "Every rejection brings you closer to the right opportunity.",
-    "image_prompt": "A sunrise over a mountain, symbolizing new beginnings and hope.",
+    "caption": "Every rejection is a step towards your success.",
+    "image_prompt": "A sunrise over a mountain, symbolizing hope and new beginnings.",
     "retrieval_status": "grounded",
     "sources": [
         {
@@ -35,7 +35,7 @@
         }
     ],
     "retrieval_strategy": "primary_topic",
-    "retrieval_query": "User situation:I have applied to many jobs, but I keep getting rejected.\nI am beginning to question whether I am capable enough.\n            Detected emotions:disappointment, sadness\n            Primary topic:career_and_work\n            Secondary topic:self_confidence\n            Information needed:\n                Safe, practical, non-diagnostic guidance, coping strategies,\n                constructive next steps, and supportive resources relevant\n                to this specific situation.",
+    "retrieval_query": "User situation:\nI have applied to many jobs, but I keep getting rejected.\nI am beginning to question whether I am capable enough.\n\nDetected emotions:\ndisappointment, sadness\n\nPredicted topic:\ncareer_and_work\n\nInformation needed:\nSafe, practical, non-diagnostic guidance, coping strategies,\nconstructive next steps, and supportive resources relevant\nto this specific situation.",
     "retrieved_sources": [
         {
             "rank": 1,
@@ -43,7 +43,7 @@
             "page": 3,
             "topic": "career_and_work",
             "source_file": "tips_job_search.pdf",
-            "relevance_score": 0.3857337066573707
+            "relevance_score": 0.3753205269426326
         },
         {
             "rank": 2,
@@ -51,15 +51,15 @@
             "page": 3,
             "topic": "career_and_work",
             "source_file": "stress_resilience.pdf",
-            "relevance_score": 0.27813802861827364
+            "relevance_score": 0.31295672028488153
         },
         {
             "rank": 3,
-            "title": "Tips Job Search",
-            "page": 3,
+            "title": "Stress Finding Job",
+            "page": 6,
             "topic": "career_and_work",
-            "source_file": "tips_job_search.pdf",
-            "relevance_score": 0.26811963843353714
+            "source_file": "stress_finding_job.pdf",
+            "relevance_score": 0.28270008779478983
         },
         {
             "rank": 4,
@@ -67,7 +67,7 @@
             "page": 5,
             "topic": "career_and_work",
             "source_file": "stress_finding_job.pdf",
-            "relevance_score": 0.26104807160298527
+            "relevance_score": 0.27796935693053304
         },
         {
             "rank": 5,
@@ -75,7 +75,8 @@
             "page": 4,
             "topic": "career_and_work",
             "source_file": "tips_job_search.pdf",
-            "relevance_score": 0.2537804376331607
+            "relevance_score": 0.27631450307060135
         }
-    ]
+    ],
+    "predicted_topic": "career_and_work"
 }
