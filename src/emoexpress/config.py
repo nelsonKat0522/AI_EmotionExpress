@@ -26,6 +26,12 @@ GENERATED_IMAGE_DIR.mkdir(parents=True,exist_ok=True)
 
 GENERATED_RESPONSE_DIR.mkdir(parents=True,exist_ok=True)
 
+HISTORY_DIR = (OUTPUT_DIR/ "history")
+
+HISTORY_FILE = (HISTORY_DIR/ "emoexpress_history.json")
+
+HISTORY_DIR.mkdir(parents=True,exist_ok=True)
+
 load_dotenv(PROJECT_ROOT / ".env")
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")

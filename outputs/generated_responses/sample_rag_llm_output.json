@@ -1,23 +1,23 @@
 {
-    "empathetic_response": "It's completely understandable to feel disappointed after facing multiple rejections. Remember, this journey is tough, but it doesn't define your capabilities. Each step you take is a part of your growth.",
+    "empathetic_response": "It's completely understandable to feel disappointed after facing multiple rejections. Remember, this journey can be tough, but it doesn't define your capabilities. Each rejection is a step towards finding the right opportunity for you.",
     "recommendations": [
         {
-            "recommendation": "Reflect on each rejection to identify areas for improvement and growth.",
+            "recommendation": "Reflect on your applications and interviews to identify areas for improvement.",
             "source_title": "Tips Job Search",
             "page": 3
         },
         {
-            "recommendation": "Celebrate small victories, like refining your resume or gaining interview experience.",
+            "recommendation": "Celebrate small victories, like perfecting your resume or expanding your network.",
             "source_title": "Tips Job Search",
             "page": 4
         },
         {
-            "recommendation": "Reach out to friends or mentors for support and encouragement during this process.",
+            "recommendation": "Reach out to friends or mentors for support and feedback during your job search.",
             "source_title": "Stress Resilience",
             "page": 3
         }
     ],
-    "caption": "Every rejection is a step towards your success.",
+    "caption": "Every rejection is a step closer to your dream job.",
     "image_prompt": "A sunrise over a mountain, symbolizing hope and new beginnings.",
     "retrieval_status": "grounded",
     "sources": [

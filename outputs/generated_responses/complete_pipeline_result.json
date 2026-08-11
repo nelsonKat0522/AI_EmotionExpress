@@ -59,38 +59,43 @@
         ]
     },
     "generated_response": {
-        "empathetic_response": "It's great that you enjoy fast food, but I understand your wife's concern.",
+        "empathetic_response": "It's great that you enjoy fast food! Balancing enjoyment with health is important.",
         "recommendations": [
             {
-                "recommendation": "Consider balancing your fast food intake with healthier meals to feel better overall.",
-                "source_title": "Support Digital Wellness",
-                "page": 1
+                "recommendation": "Consider incorporating healthier options into your meals to balance your diet.",
+                "source_title": null,
+                "page": null
             },
             {
-                "recommendation": "Try incorporating more physical activity into your routine to complement your diet.",
-                "source_title": "Manage Screentime",
-                "page": 5
+                "recommendation": "Try cooking some of your favorite fast food dishes at home with healthier ingredients.",
+                "source_title": null,
+                "page": null
+            },
+            {
+                "recommendation": "Set a goal to enjoy fast food less frequently, perhaps once a week.",
+                "source_title": null,
+                "page": null
             }
         ],
-        "caption": "Finding balance in food choices can lead to positive changes.",
-        "image_prompt": "A person enjoying a healthy meal while smiling, symbolizing balance and joy.",
-        "retrieval_status": "partially_grounded"
+        "caption": "Finding balance in food choices can lead to a healthier lifestyle.",
+        "image_prompt": "A person happily preparing a healthy meal in a bright kitchen.",
+        "retrieval_status": "not_grounded"
     },
     "generated_image": {
         "status": "success",
-        "path": "d:\\FullStack_Academic\\Final Capstone\\EmoExpress\\outputs\\generated_images\\finding_balance_in_food_choices_can_lead_to_positi_20260805_191505_with_caption.png",
-        "original_path": "d:\\FullStack_Academic\\Final Capstone\\EmoExpress\\outputs\\generated_images\\finding_balance_in_food_choices_can_lead_to_positi_20260805_191505.png",
-        "final_path": "d:\\FullStack_Academic\\Final Capstone\\EmoExpress\\outputs\\generated_images\\finding_balance_in_food_choices_can_lead_to_positi_20260805_191505_with_caption.png",
-        "caption": "Finding balance in food choices can lead to positive changes.",
+        "path": "d:\\FullStack_Academic\\Final Capstone\\EmoExpress\\outputs\\generated_images\\finding_balance_in_food_choices_can_lead_to_a_heal_20260810_203925_with_caption.png",
+        "original_path": "d:\\FullStack_Academic\\Final Capstone\\EmoExpress\\outputs\\generated_images\\finding_balance_in_food_choices_can_lead_to_a_heal_20260810_203925.png",
+        "final_path": "d:\\FullStack_Academic\\Final Capstone\\EmoExpress\\outputs\\generated_images\\finding_balance_in_food_choices_can_lead_to_a_heal_20260810_203925_with_caption.png",
+        "caption": "Finding balance in food choices can lead to a healthier lifestyle.",
         "caption_embedded": true,
         "model": "gpt-image-2",
-        "prompt": "A person enjoying a healthy meal while smiling, symbolizing balance and joy.\n\nCreate a polished and emotionally supportive digital illustration.\n\nRequirements:\n\n- Show symbolic emotional progress and realistic hope.\n- Avoid depicting a specific identifiable person.\n- Use a calm and balanced composition.\n- Do not include text, logos, watermarks, or interface elements.\n- Do not depict self-harm, violence, medication, or graphic distress."
+        "prompt": "A person happily preparing a healthy meal in a bright kitchen.\n\nCreate a polished and emotionally supportive digital illustration.\n\nRequirements:\n\n- Show symbolic emotional progress and realistic hope.\n- Avoid depicting a specific identifiable person.\n- Use a calm and balanced composition.\n- Do not include text, logos, watermarks, or interface elements.\n- Do not depict self-harm, violence, medication, or graphic distress."
     },
     "timing": {
-        "emotion_seconds": 0.08376369997859001,
-        "topic_seconds": 0.03794079925864935,
-        "retrieval_seconds": 0.440259600058198,
-        "response_seconds": 3.9838266000151634,
-        "total_seconds": 52.40538389980793
+        "emotion_seconds": 0.0975759999996626,
+        "topic_seconds": 0.030534399999851303,
+        "retrieval_seconds": 0.3763275999999678,
+        "response_seconds": 2.775351600000249,
+        "total_seconds": 52.05920799999967
     }
 }

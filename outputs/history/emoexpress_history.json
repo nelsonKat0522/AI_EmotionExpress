@@ -1,0 +1,254 @@
+[
+    {
+        "id": "2fbc55b8-64da-4cb2-ab53-af7565466e26",
+        "created_at": "2026-08-10T22:16:41-04:00",
+        "user_story": "A lot of technology companies lay off their employees because of AI. I am recently graduated in computer science and worried that I cannot find a job.",
+        "emotion_predictions": [
+            {
+                "emotion": "nervousness",
+                "score": 0.521849513053894
+            }
+        ],
+        "topic": "career_and_work",
+        "topic_confidence": 0.9978970289230347,
+        "empathetic_response": "It's completely understandable to feel nervous about job prospects in today's tech landscape. Many recent graduates share your concerns, especially with the rapid advancements in AI. Remember, you're not alone in this journey, and there are ways to navigate these challenges.",
+        "recommendations": [
+            {
+                "recommendation": "Reach out to friends or mentors for emotional support and networking opportunities.",
+                "source_title": "Stress Resilience",
+                "page": 3
+            },
+            {
+                "recommendation": "Consider joining professional groups or online communities to connect with others in your field.",
+                "source_title": "Stress Resilience",
+                "page": 3
+            },
+            {
+                "recommendation": "Focus on building a positive mindset by reflecting on your skills and experiences.",
+                "source_title": "Stress Resilience",
+                "page": 3
+            }
+        ],
+        "caption": "Embrace connections and optimism during your job search journey.",
+        "retrieval_status": "grounded",
+        "sources": [
+            {
+                "rank": 1,
+                "title": "Stress Resilience",
+                "page": 3,
+                "topic": "career_and_work",
+                "source_file": "stress_resilience.pdf",
+                "relevance_score": 0.30715499585311434
+            },
+            {
+                "rank": 2,
+                "title": "Stress Finding Job",
+                "page": 9,
+                "topic": "career_and_work",
+                "source_file": "stress_finding_job.pdf",
+                "relevance_score": 0.2692499326169022
+            },
+            {
+                "rank": 3,
+                "title": "Stress Finding Job",
+                "page": 7,
+                "topic": "career_and_work",
+                "source_file": "stress_finding_job.pdf",
+                "relevance_score": 0.2622978942487273
+            },
+            {
+                "rank": 4,
+                "title": "Stress Resilience",
+                "page": 1,
+                "topic": "career_and_work",
+                "source_file": "stress_resilience.pdf",
+                "relevance_score": 0.2614321979803136
+            },
+            {
+                "rank": 5,
+                "title": "Signs Strategies Burnout",
+                "page": 4,
+                "topic": "career_and_work",
+                "source_file": "signs_strategies_burnout.pdf",
+                "relevance_score": 0.2568499083165121
+            }
+        ],
+        "image_path": "D:\\FullStack_Academic\\Final Capstone\\EmoExpress\\outputs\\generated_images\\embrace_connections_and_optimism_during_your_job_s_20260810_221640_with_caption.png",
+        "timing": {
+            "emotion_seconds": 0.5222508000006201,
+            "topic_seconds": 0.08743070000127773,
+            "retrieval_seconds": 1.5885718000008637,
+            "response_seconds": 8.611130900000717,
+            "image_seconds": 58.11940719999984,
+            "total_seconds": 68.92886670000007
+        }
+    },
+    {
+        "id": "71122a2b-675d-4769-a4ce-7df969a84986",
+        "created_at": "2026-08-10T21:39:48-04:00",
+        "user_story": "My Black Maine-coon cat is very smart. He likes to be around me and my husband. However, he recently ate my plants' leaves that makes me worry that he probably gets poinson.",
+        "emotion_predictions": [
+            {
+                "emotion": "admiration",
+                "score": 0.3522678315639496
+            }
+        ],
+        "topic": "relationships",
+        "topic_confidence": 0.9665344953536987,
+        "empathetic_response": "It's wonderful to hear how much you admire your cat's intelligence and companionship. I understand your concern about his health after eating the plant leaves. It's natural to worry about our furry friends, and taking steps to ensure their safety is important.",
+        "recommendations": [
+            {
+                "recommendation": "Monitor your cat for any unusual behavior or symptoms.",
+                "source_title": null,
+                "page": null
+            },
+            {
+                "recommendation": "Consider contacting your veterinarian for advice on potential plant toxicity.",
+                "source_title": null,
+                "page": null
+            },
+            {
+                "recommendation": "Create a safe space for your cat away from harmful plants.",
+                "source_title": "Love Stress Support",
+                "page": 6
+            }
+        ],
+        "caption": "Caring for your pet brings joy and peace of mind.",
+        "retrieval_status": "partially_grounded",
+        "sources": [
+            {
+                "rank": 1,
+                "title": "Love Stress Support",
+                "page": 17,
+                "topic": "relationships",
+                "source_file": "love_stress_support.pdf",
+                "relevance_score": 0.16905928727377517
+            },
+            {
+                "rank": 2,
+                "title": "Love Stress Support",
+                "page": 6,
+                "topic": "relationships",
+                "source_file": "love_stress_support.pdf",
+                "relevance_score": 0.16555207942178962
+            },
+            {
+                "rank": 3,
+                "title": "Love Stress Support",
+                "page": 18,
+                "topic": "relationships",
+                "source_file": "love_stress_support.pdf",
+                "relevance_score": 0.13932957468376672
+            },
+            {
+                "rank": 4,
+                "title": "Love Stress Support",
+                "page": 17,
+                "topic": "relationships",
+                "source_file": "love_stress_support.pdf",
+                "relevance_score": 0.1259490460996191
+            },
+            {
+                "rank": 5,
+                "title": "Love Stress Support",
+                "page": 15,
+                "topic": "relationships",
+                "source_file": "love_stress_support.pdf",
+                "relevance_score": 0.11690972720579063
+            }
+        ],
+        "image_path": "D:\\FullStack_Academic\\Final Capstone\\EmoExpress\\outputs\\generated_images\\caring_for_your_pet_brings_joy_and_peace_of_mind_20260810_213948_with_caption.png",
+        "timing": {
+            "emotion_seconds": 0.5052030999995623,
+            "topic_seconds": 0.07035689999975148,
+            "retrieval_seconds": 0.5856125000000247,
+            "response_seconds": 2.5257763999998133,
+            "image_seconds": 54.517281899999944,
+            "total_seconds": 58.20430539999961
+        }
+    },
+    {
+        "id": "397163d3-c974-4dd6-9c33-55d8780ff3a5",
+        "created_at": "2026-08-10T21:36:57-04:00",
+        "user_story": "I love eating fast food. It is very tasty but my wife says it makes my belly bigger. I eat it anyways.",
+        "emotion_predictions": [
+            {
+                "emotion": "love",
+                "score": 0.9127750396728516
+            }
+        ],
+        "topic": "daily_life",
+        "topic_confidence": 0.9969197511672974,
+        "empathetic_response": "It's great that you enjoy fast food! Balancing enjoyment with health can be tricky, especially when loved ones express concern. It's important to find a way to enjoy your favorites while considering your overall well-being.",
+        "recommendations": [
+            {
+                "recommendation": "Try to incorporate healthier options into your meals, like salads or grilled items.",
+                "source_title": null,
+                "page": null
+            },
+            {
+                "recommendation": "Consider setting a limit on fast food days to create a balanced diet.",
+                "source_title": null,
+                "page": null
+            },
+            {
+                "recommendation": "Explore cooking some of your favorite fast food meals at home with healthier ingredients.",
+                "source_title": null,
+                "page": null
+            }
+        ],
+        "caption": "Finding balance between enjoyment and health is possible!",
+        "retrieval_status": "not_grounded",
+        "sources": [
+            {
+                "rank": 1,
+                "title": "Support Digital Wellness",
+                "page": 1,
+                "topic": "daily_life",
+                "source_file": "support_digital_wellness.pdf",
+                "relevance_score": 0.1252151851733475
+            },
+            {
+                "rank": 2,
+                "title": "Manage Screentime",
+                "page": 5,
+                "topic": "daily_life",
+                "source_file": "manage_screentime.pdf",
+                "relevance_score": 0.06792472111139813
+            },
+            {
+                "rank": 3,
+                "title": "Manage Screentime",
+                "page": 6,
+                "topic": "daily_life",
+                "source_file": "manage_screentime.pdf",
+                "relevance_score": 0.0489345312841476
+            },
+            {
+                "rank": 4,
+                "title": "Manage Screentime",
+                "page": 1,
+                "topic": "daily_life",
+                "source_file": "manage_screentime.pdf",
+                "relevance_score": 0.04839345004296469
+            },
+            {
+                "rank": 5,
+                "title": "Wellness Online",
+                "page": 1,
+                "topic": "daily_life",
+                "source_file": "wellness_online.pdf",
+                "relevance_score": 0.04110356253712644
+            }
+        ],
+        "image_path": "D:\\FullStack_Academic\\Final Capstone\\EmoExpress\\outputs\\generated_images\\finding_balance_between_enjoyment_and_health_is_po_20260810_213656_with_caption.png",
+        "timing": {
+            "emotion_seconds": 0.14017229999990377,
+            "topic_seconds": 0.08772440000029746,
+            "retrieval_seconds": 1.434618700000101,
+            "response_seconds": 2.8359333999997034,
+            "image_seconds": 51.626173700000436,
+            "total_seconds": 56.124703800000134
+        }
+    }
+]
