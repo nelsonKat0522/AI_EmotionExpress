@@ -121,9 +121,7 @@ if run_button:
 
     else:
         try:
-            with st.spinner(
-                "Analyzing your story and preparing support..."
-            ):
+            with st.spinner("Analyzing your story and preparing support..."):
                 result = run_emoexpress_pipeline(user_story=user_story,
                                             emotion_tokenizer=resources["emotion_tokenizer"],
                                             emotion_model=resources["emotion_model"],
@@ -134,10 +132,10 @@ if run_button:
                                             retrieval_k=retrieval_k,
                                             generate_image_output=(generate_image_output))
 
-                history_record = add_history_record(result)
+            add_history_record(result)
 
             st.success(
-                "Your EmoExpress result is ready."
+                "Your EmoExpress result is ready and saved to History."
             )
 
             # Emotion and topic overview
@@ -176,7 +174,7 @@ if run_button:
 
                 st.metric(label="Knowledge-base topic",value=topic_display)
 
-                st.caption("Confidence: {topic_result['confidence']:.2%}")
+                st.caption(f"Confidence: {topic_result['confidence']:.2%}")
 
             generated_response = result["generated_response"]
 
@@ -200,7 +198,7 @@ if run_button:
             # Final caption
             st.subheader("Encouraging Message")
 
-            st.success("Your EmoExpress result is ready and was saved to History.")
+            st.success(generated_response["caption"])
 
             # Final image
             image_result = result["generated_image"]

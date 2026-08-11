@@ -1,5 +1,168 @@
 [
     {
+        "id": "4db7021c-720e-4a84-8dc0-fea0167412ce",
+        "created_at": "2026-08-10T22:43:33-04:00",
+        "user_story": "My sister health is worse recently. She could eat well because whenever she eats, her stomach hurts. I am too worried about her health",
+        "emotion_predictions": [
+            {
+                "emotion": "sadness",
+                "score": 0.4795939326286316
+            }
+        ],
+        "topic": "health_and_wellness",
+        "topic_confidence": 0.9898495674133301,
+        "empathetic_response": "It's understandable to feel worried about your sister's health. Watching a loved one struggle can be incredibly distressing. Your concern shows how much you care for her well-being.",
+        "recommendations": [
+            {
+                "recommendation": "Encourage your sister to consult a healthcare professional about her symptoms.",
+                "source_title": "Meeting Needs Saving Lives",
+                "page": 252
+            },
+            {
+                "recommendation": "Help her explore gentle dietary options that may be easier on her stomach.",
+                "source_title": "Meeting Needs Saving Lives",
+                "page": 251
+            }
+        ],
+        "caption": "Support and care can lead to healing and hope.",
+        "retrieval_status": "grounded",
+        "sources": [
+            {
+                "rank": 1,
+                "title": "About Mental Health",
+                "page": 5,
+                "topic": "general_support",
+                "source_file": "about_mental_health.pdf",
+                "relevance_score": 0.23263865118942906
+            },
+            {
+                "rank": 2,
+                "title": "Meeting Needs Saving Lives",
+                "page": 252,
+                "topic": "general_support",
+                "source_file": "meeting_needs_saving_lives.pdf",
+                "relevance_score": 0.2063711336171965
+            },
+            {
+                "rank": 3,
+                "title": "Meeting Needs Saving Lives",
+                "page": 251,
+                "topic": "general_support",
+                "source_file": "meeting_needs_saving_lives.pdf",
+                "relevance_score": 0.19717747296412114
+            },
+            {
+                "rank": 4,
+                "title": "About Mental Health",
+                "page": 4,
+                "topic": "general_support",
+                "source_file": "about_mental_health.pdf",
+                "relevance_score": 0.18741887595360573
+            },
+            {
+                "rank": 5,
+                "title": "About Mental Health",
+                "page": 5,
+                "topic": "general_support",
+                "source_file": "about_mental_health.pdf",
+                "relevance_score": 0.17226927555006188
+            }
+        ],
+        "image_path": "D:\\FullStack_Academic\\Final Capstone\\EmoExpress\\outputs\\generated_images\\support_and_care_can_lead_to_healing_and_hope_20260810_224332_with_caption.png",
+        "timing": {
+            "emotion_seconds": 0.5201103999988845,
+            "topic_seconds": 0.09604589999980817,
+            "retrieval_seconds": 1.935574600000109,
+            "response_seconds": 2.327718200000163,
+            "image_seconds": 60.52303109999957,
+            "total_seconds": 65.4025658999999
+        }
+    },
+    {
+        "id": "37808c87-2dff-4976-ba53-003325727ecc",
+        "created_at": "2026-08-10T22:25:27-04:00",
+        "user_story": "I like to cook. Cooking is a way to relieve stress, but it takes time to cook and clean up after cooking. Cooking is healthier than eating fast foods but it's more expensive and make me eat more.",
+        "emotion_predictions": [
+            {
+                "emotion": "approval",
+                "score": 0.5840939879417419
+            }
+        ],
+        "topic": "daily_life",
+        "topic_confidence": 0.9977138042449951,
+        "empathetic_response": "It's great that cooking helps you relieve stress! Balancing time and expenses can be challenging. You're not alone in feeling this way.",
+        "recommendations": [
+            {
+                "recommendation": "Try meal prepping to save time and reduce cooking stress during the week.",
+                "source_title": "Time Management",
+                "page": 1
+            },
+            {
+                "recommendation": "Consider budgeting for groceries to make cooking more affordable and manageable.",
+                "source_title": "Support Digital Wellness",
+                "page": 1
+            },
+            {
+                "recommendation": "Explore simple recipes that require less cleanup to enjoy cooking without the hassle.",
+                "source_title": "Sunshine Screentime",
+                "page": 4
+            }
+        ],
+        "caption": "Embrace cooking as a joyful and manageable part of your life.",
+        "retrieval_status": "grounded",
+        "sources": [
+            {
+                "rank": 1,
+                "title": "Support Digital Wellness",
+                "page": 1,
+                "topic": "daily_life",
+                "source_file": "support_digital_wellness.pdf",
+                "relevance_score": 0.21577181959015734
+            },
+            {
+                "rank": 2,
+                "title": "Sunshine Screentime",
+                "page": 4,
+                "topic": "daily_life",
+                "source_file": "sunshine_screentime.pdf",
+                "relevance_score": 0.15604712214561278
+            },
+            {
+                "rank": 3,
+                "title": "Time Management",
+                "page": 1,
+                "topic": "daily_life",
+                "source_file": "time_management.pdf",
+                "relevance_score": 0.12061443518989823
+            },
+            {
+                "rank": 4,
+                "title": "Manage Screentime",
+                "page": 5,
+                "topic": "daily_life",
+                "source_file": "manage_screentime.pdf",
+                "relevance_score": 0.11842718233957694
+            },
+            {
+                "rank": 5,
+                "title": "Sunshine Screentime",
+                "page": 3,
+                "topic": "daily_life",
+                "source_file": "sunshine_screentime.pdf",
+                "relevance_score": 0.11600559301153501
+            }
+        ],
+        "image_path": "D:\\FullStack_Academic\\Final Capstone\\EmoExpress\\outputs\\generated_images\\embrace_cooking_as_a_joyful_and_manageable_part_of_20260810_222526_with_caption.png",
+        "timing": {
+            "emotion_seconds": 0.19305010000061884,
+            "topic_seconds": 0.45261329999993904,
+            "retrieval_seconds": 1.4808991999998398,
+            "response_seconds": 2.4756386000008206,
+            "image_seconds": 54.007937700000184,
+            "total_seconds": 58.610217499999635
+        }
+    },
+    {
         "id": "2fbc55b8-64da-4cb2-ab53-af7565466e26",
         "created_at": "2026-08-10T22:16:41-04:00",
         "user_story": "A lot of technology companies lay off their employees because of AI. I am recently graduated in computer science and worried that I cannot find a job.",
