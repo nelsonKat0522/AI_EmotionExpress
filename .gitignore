@@ -15,8 +15,8 @@ models/
 # Vector database
 vector_store/
 
-# Output images
-outputs/generated_images/
+# Generated application outputs
+outputs/
 
 # VS Code
 .vscode/
