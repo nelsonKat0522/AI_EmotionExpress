@@ -1,5 +1,256 @@
 [
     {
+        "id": "34526c18-1ef1-410d-99ee-871b3e7e6bf2",
+        "created_at": "2026-08-13T22:32:01+00:00",
+        "user_story": "I’m going on vacation next week with my family, and I’m really excited. We have been planning this trip for a long time, and I’m looking forward to relaxing, exploring new places, and spending quality time together. I feel happy and grateful that we finally have the chance to take a break and enjoy the trip.",
+        "emotion_predictions": [
+            {
+                "emotion": "excitement",
+                "score": 0.6861783266067505
+            },
+            {
+                "emotion": "joy",
+                "score": 0.5678216814994812
+            }
+        ],
+        "topic": "daily_life",
+        "topic_confidence": 0.9979888200759888,
+        "empathetic_response": "It's wonderful to hear about your excitement for the upcoming family vacation! Taking time to relax and enjoy new experiences together can be incredibly fulfilling. Cherish these moments and the joy they bring.",
+        "recommendations": [
+            {
+                "recommendation": "Consider setting aside some tech-free time during your vacation to fully engage with your family.",
+                "source_title": "Sunshine Screentime",
+                "page": 2
+            },
+            {
+                "recommendation": "Plan outdoor activities that allow you to connect with nature and enhance your well-being.",
+                "source_title": "Wellness Online",
+                "page": 3
+            },
+            {
+                "recommendation": "Create a family schedule that includes relaxation and exploration to balance activities.",
+                "source_title": "Digital Wellbeing",
+                "page": 6
+            }
+        ],
+        "caption": "Embrace joy and connection during your family vacation!",
+        "retrieval_status": "grounded",
+        "sources": [
+            {
+                "rank": 1,
+                "title": "Sunshine Screentime",
+                "page": 2,
+                "topic": "daily_life",
+                "source_file": "sunshine_screentime.pdf",
+                "relevance_score": 0.17793263187816777
+            },
+            {
+                "rank": 2,
+                "title": "Sunshine Screentime",
+                "page": 4,
+                "topic": "daily_life",
+                "source_file": "sunshine_screentime.pdf",
+                "relevance_score": 0.14652480036784954
+            },
+            {
+                "rank": 3,
+                "title": "Support Digital Wellness",
+                "page": 3,
+                "topic": "daily_life",
+                "source_file": "support_digital_wellness.pdf",
+                "relevance_score": 0.1165545135665409
+            },
+            {
+                "rank": 4,
+                "title": "Wellness Online",
+                "page": 3,
+                "topic": "daily_life",
+                "source_file": "wellness_online.pdf",
+                "relevance_score": 0.08335434517644835
+            },
+            {
+                "rank": 5,
+                "title": "Digital Wellbeing",
+                "page": 6,
+                "topic": "daily_life",
+                "source_file": "digital_wellbeing.pdf",
+                "relevance_score": 0.07987301548944847
+            }
+        ],
+        "image_path": "/app/outputs/generated_images/embrace_joy_and_connection_during_your_family_vaca_20260813_223200_with_caption.png",
+        "timing": {
+            "emotion_seconds": 0.2625208569999984,
+            "topic_seconds": 0.10281720500000802,
+            "retrieval_seconds": 3.8146499369999987,
+            "response_seconds": 3.070184710999996,
+            "image_seconds": 51.64464674000001,
+            "total_seconds": 58.894869544
+        }
+    },
+    {
+        "id": "fdaf023b-e853-46aa-872d-437f1e0013cb",
+        "created_at": "2026-08-13T16:48:04+00:00",
+        "user_story": "I recently gain 10 lbs that makes me not confident in my look. I try to diet and exercise but my weight is still the same.",
+        "emotion_predictions": [
+            {
+                "emotion": "sadness",
+                "score": 0.22282326221466064
+            }
+        ],
+        "topic": "health_and_wellness",
+        "topic_confidence": 0.9897884130477905,
+        "empathetic_response": "It's understandable to feel sad about changes in your body. Remember, self-acceptance is a journey, and it's okay to seek support along the way.",
+        "recommendations": [
+            {
+                "recommendation": "Practice self-compassion and speak to yourself kindly, as you would to a friend.",
+                "source_title": "Cope Mental Health",
+                "page": 1
+            },
+            {
+                "recommendation": "Engage in physical activities you enjoy to boost your mood and confidence.",
+                "source_title": "Navigate Mental Health Resources",
+                "page": 5
+            },
+            {
+                "recommendation": "Connect with supportive friends or communities to share your feelings and experiences.",
+                "source_title": "Navigate Mental Health Resources",
+                "page": 5
+            }
+        ],
+        "caption": "Embrace your journey towards self-acceptance and well-being.",
+        "retrieval_status": "grounded",
+        "sources": [
+            {
+                "rank": 1,
+                "title": "About Mental Health",
+                "page": 5,
+                "topic": "general_support",
+                "source_file": "about_mental_health.pdf",
+                "relevance_score": 0.21539561682034913
+            },
+            {
+                "rank": 2,
+                "title": "Cope Mental Health",
+                "page": 1,
+                "topic": "general_support",
+                "source_file": "cope_mental_health.pdf",
+                "relevance_score": 0.15981800068188257
+            },
+            {
+                "rank": 3,
+                "title": "Navigate Mental Health Resources",
+                "page": 5,
+                "topic": "general_support",
+                "source_file": "navigate_mental_health_resources.pdf",
+                "relevance_score": 0.15852240655865768
+            },
+            {
+                "rank": 4,
+                "title": "About Mental Health",
+                "page": 4,
+                "topic": "general_support",
+                "source_file": "about_mental_health.pdf",
+                "relevance_score": 0.15353710872939508
+            },
+            {
+                "rank": 5,
+                "title": "About Mental Health",
+                "page": 5,
+                "topic": "general_support",
+                "source_file": "about_mental_health.pdf",
+                "relevance_score": 0.15214609414114155
+            }
+        ],
+        "image_path": "/app/outputs/generated_images/embrace_your_journey_towards_self_acceptance_and_w_20260813_164803_with_caption.png",
+        "timing": {
+            "emotion_seconds": 0.22753518200011058,
+            "topic_seconds": 0.11777029099994252,
+            "retrieval_seconds": 1.3891716260000067,
+            "response_seconds": 4.234412293999867,
+            "image_seconds": 52.07581731799996,
+            "total_seconds": 58.04475210500004
+        }
+    },
+    {
+        "id": "4e03d715-70ee-4243-9024-8b71328cb4c0",
+        "created_at": "2026-08-13T16:26:05+00:00",
+        "user_story": "My cat is hiding from me. I could not find him that makes me worry he is getting sick. However, I figured out he was sitting at the dark corner watching for a bug.",
+        "emotion_predictions": [
+            {
+                "emotion": "nervousness",
+                "score": 0.43071186542510986
+            }
+        ],
+        "topic": "health_and_wellness",
+        "topic_confidence": 0.8943910598754883,
+        "empathetic_response": "It's understandable to feel nervous when you can't find your cat. Cats can sometimes seek out quiet, dark places when they're feeling anxious or curious. It's great that you found him watching for a bug; that shows he's engaged and alert.",
+        "recommendations": [
+            {
+                "recommendation": "Observe your cat's behavior for any signs of illness, like changes in eating or grooming.",
+                "source_title": "Meeting Needs Saving Lives",
+                "page": 251
+            },
+            {
+                "recommendation": "Create a safe and comfortable space for your cat to relax and feel secure.",
+                "source_title": "Meeting Needs Saving Lives",
+                "page": 252
+            }
+        ],
+        "caption": "Finding comfort in small moments of curiosity and safety.",
+        "retrieval_status": "partially_grounded",
+        "sources": [
+            {
+                "rank": 1,
+                "title": "Meeting Needs Saving Lives",
+                "page": 251,
+                "topic": "general_support",
+                "source_file": "meeting_needs_saving_lives.pdf",
+                "relevance_score": 0.19653810527221083
+            },
+            {
+                "rank": 2,
+                "title": "Meeting Needs Saving Lives",
+                "page": 252,
+                "topic": "general_support",
+                "source_file": "meeting_needs_saving_lives.pdf",
+                "relevance_score": 0.1931898753328084
+            },
+            {
+                "rank": 3,
+                "title": "Meeting Needs Saving Lives",
+                "page": 33,
+                "topic": "general_support",
+                "source_file": "meeting_needs_saving_lives.pdf",
+                "relevance_score": 0.17226640956436312
+            },
+            {
+                "rank": 4,
+                "title": "Meeting Needs Saving Lives",
+                "page": 251,
+                "topic": "general_support",
+                "source_file": "meeting_needs_saving_lives.pdf",
+                "relevance_score": 0.15674777135525797
+            },
+            {
+                "rank": 5,
+                "title": "About Mental Health",
+                "page": 5,
+                "topic": "general_support",
+                "source_file": "about_mental_health.pdf",
+                "relevance_score": 0.14230236049663414
+            }
+        ],
+        "image_path": "/app/outputs/generated_images/finding_comfort_in_small_moments_of_curiosity_and__20260813_162603_with_caption.png",
+        "timing": {
+            "emotion_seconds": 0.2222879159999991,
+            "topic_seconds": 0.07128098100000102,
+            "retrieval_seconds": 2.2041494409999984,
+            "response_seconds": 3.6075019410000095,
+            "image_seconds": 68.75301606300002,
+            "total_seconds": 74.85828530199998
+        }
+    },
+    {
         "id": "bdc1d1fb-4405-4113-8650-4cc3269fdd79",
         "created_at": "2026-08-13T01:52:55+00:00",
         "user_story": "I am going to visit my parents-in-law after I finishes my certificate. I am excited to explore my husband hometown.",
