@@ -1,3 +1,0 @@
-story,expected_topic,retrieval_strategy,retrieved_topics,matched_keywords,keyword_recall,result_count,retrieval_time_seconds
-I keep getting rejected after job interviews and feel discouraged.,career_and_work,primary_topic,"['career_and_work', 'career_and_work', 'career_and_work', 'career_and_work', 'career_and_work']","['interview', 'career', 'confidence']",1.0,5,1.8956086998805404
-I feel overwhelmed and need a way to calm down.,stress_and_anxiety,primary_topic,"['stress_and_anxiety', 'stress_and_anxiety', 'stress_and_anxiety', 'stress_and_anxiety', 'stress_and_anxiety']","['stress', 'breathing']",0.6666666666666666,5,0.36502209957689047
