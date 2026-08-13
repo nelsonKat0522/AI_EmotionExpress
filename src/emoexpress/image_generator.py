@@ -64,23 +64,37 @@ def create_safe_filename(caption: str) -> str:
 
 
 def load_caption_font(font_size: int) -> Any:
-    """Load a readable font with portable fallbacks."""
+    """Load a readable TrueType font."""
 
     font_candidates = [
-        Path(
-            "C:/Windows/Fonts/arialbd.ttf"
-        ),
-        Path(
-            "C:/Windows/Fonts/arial.ttf"
-        ),
-        Path("/usr/share/fonts/truetype/"
-            "dejavu/DejaVuSans-Bold.ttf")]
+        # Linux/Docker
+        Path("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"),
+        # Window
+        Path("C:/Windows/Fonts/arialbd.ttf"),
+        Path("C:/Windows/Fonts/arial.ttf")
+        ]
 
     for font_path in font_candidates:
         if font_path.exists():
             return ImageFont.truetype(str(font_path),size=font_size)
 
-    return ImageFont.load_default()
+    raise FileNotFoundError("No Supported TrueType caption font was found.")
+
+    # font_candidates = [
+    #     Path(
+    #         "C:/Windows/Fonts/arialbd.ttf"
+    #     ),
+    #     Path(
+    #         "C:/Windows/Fonts/arial.ttf"
+    #     ),
+    #     Path("/usr/share/fonts/truetype/"
+    #         "dejavu/DejaVuSans-Bold.ttf")]
+
+    # for font_path in font_candidates:
+    #     if font_path.exists():
+    #         return ImageFont.truetype(str(font_path),size=font_size)
+
+    # return ImageFont.load_default()
 
 
 def wrap_caption_text(draw: ImageDraw.ImageDraw,caption: str,font: Any,maximum_width: int) -> str:

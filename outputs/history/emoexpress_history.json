@@ -1,283 +1,36 @@
 [
     {
-        "id": "4db7021c-720e-4a84-8dc0-fea0167412ce",
-        "created_at": "2026-08-10T22:43:33-04:00",
-        "user_story": "My sister health is worse recently. She could eat well because whenever she eats, her stomach hurts. I am too worried about her health",
+        "id": "bdc1d1fb-4405-4113-8650-4cc3269fdd79",
+        "created_at": "2026-08-13T01:52:55+00:00",
+        "user_story": "I am going to visit my parents-in-law after I finishes my certificate. I am excited to explore my husband hometown.",
         "emotion_predictions": [
             {
-                "emotion": "sadness",
-                "score": 0.4795939326286316
-            }
-        ],
-        "topic": "health_and_wellness",
-        "topic_confidence": 0.9898495674133301,
-        "empathetic_response": "It's understandable to feel worried about your sister's health. Watching a loved one struggle can be incredibly distressing. Your concern shows how much you care for her well-being.",
-        "recommendations": [
-            {
-                "recommendation": "Encourage your sister to consult a healthcare professional about her symptoms.",
-                "source_title": "Meeting Needs Saving Lives",
-                "page": 252
-            },
-            {
-                "recommendation": "Help her explore gentle dietary options that may be easier on her stomach.",
-                "source_title": "Meeting Needs Saving Lives",
-                "page": 251
-            }
-        ],
-        "caption": "Support and care can lead to healing and hope.",
-        "retrieval_status": "grounded",
-        "sources": [
-            {
-                "rank": 1,
-                "title": "About Mental Health",
-                "page": 5,
-                "topic": "general_support",
-                "source_file": "about_mental_health.pdf",
-                "relevance_score": 0.23263865118942906
-            },
-            {
-                "rank": 2,
-                "title": "Meeting Needs Saving Lives",
-                "page": 252,
-                "topic": "general_support",
-                "source_file": "meeting_needs_saving_lives.pdf",
-                "relevance_score": 0.2063711336171965
-            },
-            {
-                "rank": 3,
-                "title": "Meeting Needs Saving Lives",
-                "page": 251,
-                "topic": "general_support",
-                "source_file": "meeting_needs_saving_lives.pdf",
-                "relevance_score": 0.19717747296412114
-            },
-            {
-                "rank": 4,
-                "title": "About Mental Health",
-                "page": 4,
-                "topic": "general_support",
-                "source_file": "about_mental_health.pdf",
-                "relevance_score": 0.18741887595360573
-            },
-            {
-                "rank": 5,
-                "title": "About Mental Health",
-                "page": 5,
-                "topic": "general_support",
-                "source_file": "about_mental_health.pdf",
-                "relevance_score": 0.17226927555006188
-            }
-        ],
-        "image_path": "D:\\FullStack_Academic\\Final Capstone\\EmoExpress\\outputs\\generated_images\\support_and_care_can_lead_to_healing_and_hope_20260810_224332_with_caption.png",
-        "timing": {
-            "emotion_seconds": 0.5201103999988845,
-            "topic_seconds": 0.09604589999980817,
-            "retrieval_seconds": 1.935574600000109,
-            "response_seconds": 2.327718200000163,
-            "image_seconds": 60.52303109999957,
-            "total_seconds": 65.4025658999999
-        }
-    },
-    {
-        "id": "37808c87-2dff-4976-ba53-003325727ecc",
-        "created_at": "2026-08-10T22:25:27-04:00",
-        "user_story": "I like to cook. Cooking is a way to relieve stress, but it takes time to cook and clean up after cooking. Cooking is healthier than eating fast foods but it's more expensive and make me eat more.",
-        "emotion_predictions": [
-            {
-                "emotion": "approval",
-                "score": 0.5840939879417419
-            }
-        ],
-        "topic": "daily_life",
-        "topic_confidence": 0.9977138042449951,
-        "empathetic_response": "It's great that cooking helps you relieve stress! Balancing time and expenses can be challenging. You're not alone in feeling this way.",
-        "recommendations": [
-            {
-                "recommendation": "Try meal prepping to save time and reduce cooking stress during the week.",
-                "source_title": "Time Management",
-                "page": 1
-            },
-            {
-                "recommendation": "Consider budgeting for groceries to make cooking more affordable and manageable.",
-                "source_title": "Support Digital Wellness",
-                "page": 1
-            },
-            {
-                "recommendation": "Explore simple recipes that require less cleanup to enjoy cooking without the hassle.",
-                "source_title": "Sunshine Screentime",
-                "page": 4
-            }
-        ],
-        "caption": "Embrace cooking as a joyful and manageable part of your life.",
-        "retrieval_status": "grounded",
-        "sources": [
-            {
-                "rank": 1,
-                "title": "Support Digital Wellness",
-                "page": 1,
-                "topic": "daily_life",
-                "source_file": "support_digital_wellness.pdf",
-                "relevance_score": 0.21577181959015734
-            },
-            {
-                "rank": 2,
-                "title": "Sunshine Screentime",
-                "page": 4,
-                "topic": "daily_life",
-                "source_file": "sunshine_screentime.pdf",
-                "relevance_score": 0.15604712214561278
-            },
-            {
-                "rank": 3,
-                "title": "Time Management",
-                "page": 1,
-                "topic": "daily_life",
-                "source_file": "time_management.pdf",
-                "relevance_score": 0.12061443518989823
-            },
-            {
-                "rank": 4,
-                "title": "Manage Screentime",
-                "page": 5,
-                "topic": "daily_life",
-                "source_file": "manage_screentime.pdf",
-                "relevance_score": 0.11842718233957694
-            },
-            {
-                "rank": 5,
-                "title": "Sunshine Screentime",
-                "page": 3,
-                "topic": "daily_life",
-                "source_file": "sunshine_screentime.pdf",
-                "relevance_score": 0.11600559301153501
-            }
-        ],
-        "image_path": "D:\\FullStack_Academic\\Final Capstone\\EmoExpress\\outputs\\generated_images\\embrace_cooking_as_a_joyful_and_manageable_part_of_20260810_222526_with_caption.png",
-        "timing": {
-            "emotion_seconds": 0.19305010000061884,
-            "topic_seconds": 0.45261329999993904,
-            "retrieval_seconds": 1.4808991999998398,
-            "response_seconds": 2.4756386000008206,
-            "image_seconds": 54.007937700000184,
-            "total_seconds": 58.610217499999635
-        }
-    },
-    {
-        "id": "2fbc55b8-64da-4cb2-ab53-af7565466e26",
-        "created_at": "2026-08-10T22:16:41-04:00",
-        "user_story": "A lot of technology companies lay off their employees because of AI. I am recently graduated in computer science and worried that I cannot find a job.",
-        "emotion_predictions": [
-            {
-                "emotion": "nervousness",
-                "score": 0.521849513053894
-            }
-        ],
-        "topic": "career_and_work",
-        "topic_confidence": 0.9978970289230347,
-        "empathetic_response": "It's completely understandable to feel nervous about job prospects in today's tech landscape. Many recent graduates share your concerns, especially with the rapid advancements in AI. Remember, you're not alone in this journey, and there are ways to navigate these challenges.",
-        "recommendations": [
-            {
-                "recommendation": "Reach out to friends or mentors for emotional support and networking opportunities.",
-                "source_title": "Stress Resilience",
-                "page": 3
-            },
-            {
-                "recommendation": "Consider joining professional groups or online communities to connect with others in your field.",
-                "source_title": "Stress Resilience",
-                "page": 3
-            },
-            {
-                "recommendation": "Focus on building a positive mindset by reflecting on your skills and experiences.",
-                "source_title": "Stress Resilience",
-                "page": 3
-            }
-        ],
-        "caption": "Embrace connections and optimism during your job search journey.",
-        "retrieval_status": "grounded",
-        "sources": [
-            {
-                "rank": 1,
-                "title": "Stress Resilience",
-                "page": 3,
-                "topic": "career_and_work",
-                "source_file": "stress_resilience.pdf",
-                "relevance_score": 0.30715499585311434
-            },
-            {
-                "rank": 2,
-                "title": "Stress Finding Job",
-                "page": 9,
-                "topic": "career_and_work",
-                "source_file": "stress_finding_job.pdf",
-                "relevance_score": 0.2692499326169022
-            },
-            {
-                "rank": 3,
-                "title": "Stress Finding Job",
-                "page": 7,
-                "topic": "career_and_work",
-                "source_file": "stress_finding_job.pdf",
-                "relevance_score": 0.2622978942487273
-            },
-            {
-                "rank": 4,
-                "title": "Stress Resilience",
-                "page": 1,
-                "topic": "career_and_work",
-                "source_file": "stress_resilience.pdf",
-                "relevance_score": 0.2614321979803136
-            },
-            {
-                "rank": 5,
-                "title": "Signs Strategies Burnout",
-                "page": 4,
-                "topic": "career_and_work",
-                "source_file": "signs_strategies_burnout.pdf",
-                "relevance_score": 0.2568499083165121
-            }
-        ],
-        "image_path": "D:\\FullStack_Academic\\Final Capstone\\EmoExpress\\outputs\\generated_images\\embrace_connections_and_optimism_during_your_job_s_20260810_221640_with_caption.png",
-        "timing": {
-            "emotion_seconds": 0.5222508000006201,
-            "topic_seconds": 0.08743070000127773,
-            "retrieval_seconds": 1.5885718000008637,
-            "response_seconds": 8.611130900000717,
-            "image_seconds": 58.11940719999984,
-            "total_seconds": 68.92886670000007
-        }
-    },
-    {
-        "id": "71122a2b-675d-4769-a4ce-7df969a84986",
-        "created_at": "2026-08-10T21:39:48-04:00",
-        "user_story": "My Black Maine-coon cat is very smart. He likes to be around me and my husband. However, he recently ate my plants' leaves that makes me worry that he probably gets poinson.",
-        "emotion_predictions": [
-            {
-                "emotion": "admiration",
-                "score": 0.3522678315639496
+                "emotion": "excitement",
+                "score": 0.8058260679244995
             }
         ],
         "topic": "relationships",
-        "topic_confidence": 0.9665344953536987,
-        "empathetic_response": "It's wonderful to hear how much you admire your cat's intelligence and companionship. I understand your concern about his health after eating the plant leaves. It's natural to worry about our furry friends, and taking steps to ensure their safety is important.",
+        "topic_confidence": 0.8969943523406982,
+        "empathetic_response": "It's wonderful to hear about your excitement for visiting your in-laws! Exploring your husband's hometown can be a great opportunity to connect with family and create lasting memories. Embrace this journey with an open heart and mind.",
         "recommendations": [
             {
-                "recommendation": "Monitor your cat for any unusual behavior or symptoms.",
-                "source_title": null,
-                "page": null
-            },
-            {
-                "recommendation": "Consider contacting your veterinarian for advice on potential plant toxicity.",
-                "source_title": null,
-                "page": null
-            },
-            {
-                "recommendation": "Create a safe space for your cat away from harmful plants.",
+                "recommendation": "Take time to communicate openly with your in-laws to strengthen your relationship.",
                 "source_title": "Love Stress Support",
-                "page": 6
+                "page": 17
+            },
+            {
+                "recommendation": "Engage in activities that foster connection, like sharing stories or exploring local spots.",
+                "source_title": "Love Stress Support",
+                "page": 18
+            },
+            {
+                "recommendation": "Reflect on the sense of purpose that family relationships can bring to your life.",
+                "source_title": "Love Stress Support",
+                "page": 2
             }
         ],
-        "caption": "Caring for your pet brings joy and peace of mind.",
-        "retrieval_status": "partially_grounded",
+        "caption": "Embrace new experiences and strengthen family bonds.",
+        "retrieval_status": "grounded",
         "sources": [
             {
                 "rank": 1,
@@ -285,133 +38,133 @@
                 "page": 17,
                 "topic": "relationships",
                 "source_file": "love_stress_support.pdf",
-                "relevance_score": 0.16905928727377517
+                "relevance_score": 0.2084831121960774
             },
             {
                 "rank": 2,
-                "title": "Love Stress Support",
-                "page": 6,
-                "topic": "relationships",
-                "source_file": "love_stress_support.pdf",
-                "relevance_score": 0.16555207942178962
-            },
-            {
-                "rank": 3,
                 "title": "Love Stress Support",
                 "page": 18,
                 "topic": "relationships",
                 "source_file": "love_stress_support.pdf",
-                "relevance_score": 0.13932957468376672
-            },
-            {
-                "rank": 4,
-                "title": "Love Stress Support",
-                "page": 17,
-                "topic": "relationships",
-                "source_file": "love_stress_support.pdf",
-                "relevance_score": 0.1259490460996191
-            },
-            {
-                "rank": 5,
-                "title": "Love Stress Support",
-                "page": 15,
-                "topic": "relationships",
-                "source_file": "love_stress_support.pdf",
-                "relevance_score": 0.11690972720579063
-            }
-        ],
-        "image_path": "D:\\FullStack_Academic\\Final Capstone\\EmoExpress\\outputs\\generated_images\\caring_for_your_pet_brings_joy_and_peace_of_mind_20260810_213948_with_caption.png",
-        "timing": {
-            "emotion_seconds": 0.5052030999995623,
-            "topic_seconds": 0.07035689999975148,
-            "retrieval_seconds": 0.5856125000000247,
-            "response_seconds": 2.5257763999998133,
-            "image_seconds": 54.517281899999944,
-            "total_seconds": 58.20430539999961
-        }
-    },
-    {
-        "id": "397163d3-c974-4dd6-9c33-55d8780ff3a5",
-        "created_at": "2026-08-10T21:36:57-04:00",
-        "user_story": "I love eating fast food. It is very tasty but my wife says it makes my belly bigger. I eat it anyways.",
-        "emotion_predictions": [
-            {
-                "emotion": "love",
-                "score": 0.9127750396728516
-            }
-        ],
-        "topic": "daily_life",
-        "topic_confidence": 0.9969197511672974,
-        "empathetic_response": "It's great that you enjoy fast food! Balancing enjoyment with health can be tricky, especially when loved ones express concern. It's important to find a way to enjoy your favorites while considering your overall well-being.",
-        "recommendations": [
-            {
-                "recommendation": "Try to incorporate healthier options into your meals, like salads or grilled items.",
-                "source_title": null,
-                "page": null
-            },
-            {
-                "recommendation": "Consider setting a limit on fast food days to create a balanced diet.",
-                "source_title": null,
-                "page": null
-            },
-            {
-                "recommendation": "Explore cooking some of your favorite fast food meals at home with healthier ingredients.",
-                "source_title": null,
-                "page": null
-            }
-        ],
-        "caption": "Finding balance between enjoyment and health is possible!",
-        "retrieval_status": "not_grounded",
-        "sources": [
-            {
-                "rank": 1,
-                "title": "Support Digital Wellness",
-                "page": 1,
-                "topic": "daily_life",
-                "source_file": "support_digital_wellness.pdf",
-                "relevance_score": 0.1252151851733475
-            },
-            {
-                "rank": 2,
-                "title": "Manage Screentime",
-                "page": 5,
-                "topic": "daily_life",
-                "source_file": "manage_screentime.pdf",
-                "relevance_score": 0.06792472111139813
+                "relevance_score": 0.1916566572776791
             },
             {
                 "rank": 3,
-                "title": "Manage Screentime",
-                "page": 6,
-                "topic": "daily_life",
-                "source_file": "manage_screentime.pdf",
-                "relevance_score": 0.0489345312841476
+                "title": "Love Stress Support",
+                "page": 2,
+                "topic": "relationships",
+                "source_file": "love_stress_support.pdf",
+                "relevance_score": 0.19075302884560552
             },
             {
                 "rank": 4,
-                "title": "Manage Screentime",
+                "title": "Stay Or Go",
                 "page": 1,
-                "topic": "daily_life",
-                "source_file": "manage_screentime.pdf",
-                "relevance_score": 0.04839345004296469
+                "topic": "relationships",
+                "source_file": "stay_or_go.pdf",
+                "relevance_score": 0.18418570691063807
             },
             {
                 "rank": 5,
-                "title": "Wellness Online",
-                "page": 1,
-                "topic": "daily_life",
-                "source_file": "wellness_online.pdf",
-                "relevance_score": 0.04110356253712644
+                "title": "Love Stress Support",
+                "page": 3,
+                "topic": "relationships",
+                "source_file": "love_stress_support.pdf",
+                "relevance_score": 0.18310801199421445
             }
         ],
-        "image_path": "D:\\FullStack_Academic\\Final Capstone\\EmoExpress\\outputs\\generated_images\\finding_balance_between_enjoyment_and_health_is_po_20260810_213656_with_caption.png",
+        "image_path": "/app/outputs/generated_images/embrace_new_experiences_and_strengthen_family_bond_20260813_015254_with_caption.png",
         "timing": {
-            "emotion_seconds": 0.14017229999990377,
-            "topic_seconds": 0.08772440000029746,
-            "retrieval_seconds": 1.434618700000101,
-            "response_seconds": 2.8359333999997034,
-            "image_seconds": 51.626173700000436,
-            "total_seconds": 56.124703800000134
+            "emotion_seconds": 0.08515958299994963,
+            "topic_seconds": 0.03504439099924639,
+            "retrieval_seconds": 0.6490677980000328,
+            "response_seconds": 3.2101328479993754,
+            "image_seconds": 55.93399551600032,
+            "total_seconds": 59.91350476000025
+        }
+    },
+    {
+        "id": "1f662c6b-80b2-4881-8bd8-f331621235e1",
+        "created_at": "2026-08-13T01:46:35+00:00",
+        "user_story": "My cat is an in-door cat, so he cannot be outside. However, he likes to catch mouses and bugs that he could eat any bugs he sees in the house that make me worry that is unhealthy for him.",
+        "emotion_predictions": [
+            {
+                "emotion": "neutral",
+                "score": 0.6044451594352722
+            }
+        ],
+        "topic": "stress_and_anxiety",
+        "topic_confidence": 0.9921820759773254,
+        "empathetic_response": "It's understandable to worry about your cat's health. Keeping him safe indoors is important, and it's great that you're looking out for him. Let's explore some ways to ensure he stays healthy and happy.",
+        "recommendations": [
+            {
+                "recommendation": "Consider providing your cat with toys that mimic hunting behavior to keep him engaged.",
+                "source_title": null,
+                "page": null
+            },
+            {
+                "recommendation": "Ensure your cat has a balanced diet to support his health, especially if he catches bugs.",
+                "source_title": null,
+                "page": null
+            },
+            {
+                "recommendation": "Practice positive thinking to reduce your stress about your cat's health.",
+                "source_title": "Positive Thinking",
+                "page": 8
+            }
+        ],
+        "caption": "Nurturing your cat's health brings peace of mind.",
+        "retrieval_status": "partially_grounded",
+        "sources": [
+            {
+                "rank": 1,
+                "title": "Positive Thinking",
+                "page": 8,
+                "topic": "stress_and_anxiety",
+                "source_file": "positive_thinking.pdf",
+                "relevance_score": 0.16931410711987205
+            },
+            {
+                "rank": 2,
+                "title": "Prevention Anxiety",
+                "page": 8,
+                "topic": "stress_and_anxiety",
+                "source_file": "prevention_anxiety.pdf",
+                "relevance_score": 0.15509215885205296
+            },
+            {
+                "rank": 3,
+                "title": "Prevention Anxiety",
+                "page": 28,
+                "topic": "stress_and_anxiety",
+                "source_file": "prevention_anxiety.pdf",
+                "relevance_score": 0.1535865048358498
+            },
+            {
+                "rank": 4,
+                "title": "Positive Thinking",
+                "page": 1,
+                "topic": "stress_and_anxiety",
+                "source_file": "positive_thinking.pdf",
+                "relevance_score": 0.14810547577440214
+            },
+            {
+                "rank": 5,
+                "title": "Positive Thinking",
+                "page": 4,
+                "topic": "stress_and_anxiety",
+                "source_file": "positive_thinking.pdf",
+                "relevance_score": 0.13937745350367514
+            }
+        ],
+        "image_path": "/app/outputs/generated_images/nurturing_your_cat_s_health_brings_peace_of_mind_20260813_014635_with_caption.png",
+        "timing": {
+            "emotion_seconds": 0.07988418500008265,
+            "topic_seconds": 0.03794547400002557,
+            "retrieval_seconds": 0.3200538340001913,
+            "response_seconds": 2.8223720559999492,
+            "image_seconds": 50.68465702700041,
+            "total_seconds": 53.944981063999876
         }
     }
 ]

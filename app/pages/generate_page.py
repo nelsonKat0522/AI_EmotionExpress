@@ -109,7 +109,7 @@ with right_column:
 run_button = st.button(
     "Express My Feelings",
     type="primary",
-    use_container_width=True,
+    width="stretch",
 )
 
 
@@ -163,7 +163,7 @@ if run_button:
                 ].map(
                     lambda value: (f"{value:.2%}"))
 
-                st.dataframe(emotion_dataframe,use_container_width=True,hide_index=True)
+                st.dataframe(emotion_dataframe,width="stretch",hide_index=True)
 
             with topic_column:
                 st.subheader("Predicted Topic")
@@ -208,7 +208,7 @@ if run_button:
             if final_image_path:
                 st.subheader("Your Personalized Image")
 
-                st.image(final_image_path,use_container_width=True)
+                st.image(final_image_path,width="stretch")
 
             elif generate_image_output:
                 st.warning("The supportive text was created, but image generation was unsuccessful.")
@@ -230,7 +230,7 @@ if run_button:
                                                                 "topic",
                                                                 "relevance_score"] if column in source_dataframe.columns]
 
-                    st.dataframe(source_dataframe[available_columns],use_container_width=True,hide_index=True)
+                    st.dataframe(source_dataframe[available_columns],width="stretch",hide_index=True)
 
                 else:
                     st.write("No directly relevant sources were retrieved.")
@@ -241,7 +241,7 @@ if run_button:
 
                 timing_dataframe = (pd.DataFrame([result["timing"]]))
 
-                st.dataframe(timing_dataframe,use_container_width=True,hide_index=True)
+                st.dataframe(timing_dataframe,width="stretch",hide_index=True)
 
         except Exception as error:
             st.error(f"EmoExpress could not complete the request: {error}")

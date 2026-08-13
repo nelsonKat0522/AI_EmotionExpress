@@ -197,7 +197,7 @@ if selected_history_id:
 
             st.image(
                 image_path,
-                use_container_width=True,
+                width="stretch",
             )
 
 
@@ -267,7 +267,7 @@ if selected_history_id:
             st.dataframe(
                 emotion_dataframe,
                 hide_index=True,
-                use_container_width=True,
+                width="stretch",
             )
 
 
@@ -424,7 +424,7 @@ if selected_history_id:
                     available_columns
                 ],
                 hide_index=True,
-                use_container_width=True,
+                width="stretch",
             )
 
         else:
@@ -501,7 +501,7 @@ else:
             "pages/generate_page.py",
             label="Generate your first story",
             icon="✨",
-            use_container_width=True,
+            width="stretch",
         )
 
         st.stop()

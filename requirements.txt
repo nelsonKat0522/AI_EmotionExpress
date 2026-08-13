@@ -11,7 +11,7 @@ torchvision
 torchaudio
 
 # Hugging Face
-transformers
+transformers==5.14.1 
 datasets
 accelerate
 sentence-transformers
@@ -20,6 +20,8 @@ sentence-transformers
 langchain
 langchain-community
 langchain-openai
+langchain-text-splitters
+langchain-chroma==1.1.0
 chromadb
 faiss-cpu
 pypdf

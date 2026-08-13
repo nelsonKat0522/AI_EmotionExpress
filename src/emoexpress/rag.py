@@ -1,7 +1,8 @@
 from typing import Any
 
 from langchain_openai import OpenAIEmbeddings
-from langchain_community.vectorstores import Chroma
+# from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
 
 from emoexpress.config import (OPENAI_API_KEY,VECTOR_STORE_DIR)
 
